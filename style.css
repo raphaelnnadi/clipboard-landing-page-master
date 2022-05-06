@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading-bg {
+  width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clipboard-logo {
+  margin-left: 43%;
+  transform: translate(30%, -198%);
+}
+
+.clipboard-all {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  transform: translate(0%, -308%);
+}
+
+.clipboard-message {
+  transform: translate(0%, 37%);
+}
+
+.download-btn {
+  margin-left: 31rem;
+  margin-top: -10rem;
+}
+
+.for-IOS {
+  width: 11rem;
+  height: 3rem;
+  border-radius: 30px;
+  border: 25px hsl(171, 66%, 44%);
+  color: #fff;
+  background-color: hsl(171, 66%, 44%);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.for-Mac {
+  width: 11rem;
+  height: 3rem;
+  border-radius: 30px;
+  border: 25px hsl(233, 100%, 69%);
+  color: #fff;
+  background-color: hsl(233, 100%, 69%);
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.storage {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-top: 8rem;
+}
+
+.storage-function {
+  padding-top: 1rem;
+}
+
+.other-functions {
+  margin-top: 5rem;
+}
+
+.desktop-monitor {
+  float: left;
+  width: 62%;
+}
+
+.list {
+  padding-top: 6rem;
+  line-height: 2rem;
+  position: relative;
+}
+
+.iCloud-Sync {
+  padding-top: 2rem;
+}
+
+.History {
+  padding-top: 2rem;
+}
+
+.accessible {
+  margin-top: 20rem;
+  text-align: center;
+}
+
+.access-message {
+  padding-top: 1rem;
+  line-height: 25px;
+}
+
+.devices {
+  margin-top: 5rem;
+}
+
+.workflow-Header {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+  line-height: 40px;
+}
+
+.workflow-message {
+  font-size: 13px;
+}
+
+.tools {
+  display: flex;
+  position: relative;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 13px;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.blacklist {
+  margin-left: 13rem;
+}
+
+.blacklist-text {
+  padding-top: 2rem;
+}
+
+.blacklist-message {
+  padding-top: 12px;
+  line-height: 22px;
+}
+
+.text {
+  margin-left: 1.6rem;
+  margin-top: 8px;
+}
+
+.text-header {
+  padding-top: 2rem;
+}
+
+.text-message {
+  padding-top: 12px;
+  line-height: 22px;
+}
+
+.preview {
+  margin-right: 12rem;
+  margin-top: 8px;
+}
+
+.preview-header {
+  padding-top: 2rem;
+}
+
+.preview-message {
+  padding-top: 12px;
+  line-height: 22px;
+}
+
+.companies-logos {
+  display: flex;
+  margin: 6.5rem;
+  justify-content: space-around;
+}
+
+.clipboard-all2 {
+  text-align: center;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.clipboard-second {
+  font-size: 13px;
+  padding-top: 1rem;
+  line-height: 21px;
+}
+
+.download-btn2 {
+  margin-left: 31rem;
+  margin-top: 2rem;
+}
+
+footer {
+  position: relative;
+  background-color: hsl(201, 11%, 66%);
+  margin-top: 6rem;
+  height: 7rem;
+}
+
+.footer {
+  display: flex;
+  padding-top: -2rem;
+  height: 5rem;
+}
+
+.footer-icon {
+  width: 30%;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+
+footer-links,
+a {
+  display: inline-block;
+  padding: 5px;
+  color: black;
+  opacity: 0.7;
+  margin-top: 10px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rem;
+  margin-top: 3rem;
+  gap: 20px;
+}
+
+.pp {
+  padding-left: 4rem;
+}
+
+.pk {
+  padding-left: 1.8rem;
+}
+
+.install-guide {
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 917px) {
+  .heading-bg {
+    position: relative;
+    width: 180%;
+  }
+
+  .clipboard-logo {
+    margin-left: 50%;
+    transform: translate(45%, -188%);
+  }
+
+  .clipboard-all {
+    transform: translate(14%, -308%);
+  }
+
+  .download-btn {
+    margin-left: 40%;
+  }
+
+  .storage {
+    margin-top: 8rem;
+    width: 94%;
+    margin: 8rem 3%;
+  }
+
+  .desktop-monitor {
+    float: none;
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .list {
+    position: relative;
+    width: 90%;
+    margin: auto 5%;
+    text-align: center;
+  }
+
+  .devices {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .companies-logos {
+    display: flex;
+    width: 80%;
+    margin: 6rem 10%;
+    justify-content: space-between;
+  }
+
+  .download-btn2 {
+    margin-left: 30%;
+  }
+
+  footer {
+    height: 20rem;
+    width: 100%;
+  }
+
+  .footer-icon {
+    width: 90%;
+    margin: 2rem 10%;
+  }
+
+  .footer-links {
+    width: 48%;
+    text-align: center;
+  }
+
+  .social-media {
+    margin-left: 30%;
+    margin-top: 3rem;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .heading-bg {
+    position: relative;
+    width: 253%;
+  }
+
+  .clipboard-logo {
+    margin-left: 50%;
+    transform: translate(215%, -83%);
+  }
+
+  .clipboard-all {
+    font-size: 23px;
+    text-align: center;
+    transform: translate(84%, -22%);
+  }
+
+  .clipboard-message {
+    transform: translate(0%, 17%);
+  }
+
+  .download-btn {
+    width: 14rem;
+    margin: 2rem 80%;
+    font-size: 53px;
+  }
+
+  .for-IOS {
+    width: 30rem;
+    font-size: 23px;
+  }
+
+  .for-Mac {
+    width: 30rem;
+    margin-top: 1rem;
+    font-size: 23px;
+  }
+
+  .storage {
+    width: 94%;
+    margin: 7rem 85%;
+    font-size: 20px;
+  }
+
+  .desktop-monitor {
+    float: none;
+    width: 30%;
+    margin: 0 30%;
+  }
+
+  .list {
+    position: relative;
+    width: 90%;
+    margin: auto 70%;
+    font-size: 20px;
+  }
+
+  .access {
+    width: 94%;
+    margin: 3rem 75%;
+    font-size: 20px;
+  }
+
+  .devices {
+    width: 90%;
+    margin: 0 20%;
+  }
+
+  .workflow-Header {
+    width: 94%;
+    margin: 3rem 75%;
+    font-size: 20px;
+  }
+
+  .workflow-message {
+    font-size: 20px;
+  }
+
+  .tools {
+    position: relative;
+    display: block;
+  }
+
+  .blacklist {
+    width: 90%;
+    margin: 4rem 75%;
+  }
+
+  .text {
+    width: 90%;
+    margin: 4rem 75%;
+  }
+
+  .preview {
+    width: 90%;
+    margin: 4rem 75%;
+  }
+
+  .companies-logos {
+    display: block;
+    margin: 0 88%;
+    padding: 3rem;
+  }
+
+  .IBM {
+    padding-top: 4rem;
+  }
+
+  .Microsoft {
+    padding-top: 4rem;
+  }
+
+  .HP {
+    padding-top: 4rem;
+  }
+
+  .VG {
+    padding-top: 4rem;
+  }
+
+  .clipboard-all2 {
+    width: 94%;
+    margin: 3rem 75%;
+    font-size: 20px;
+  }
+
+  .clipboard-second {
+    font-size: 20px;
+  }
+
+  .download-btn2 {
+    width: 14rem;
+    margin: 2rem 65%;
+    font-size: 53px;
+  }
+
+  footer {
+    position: relative;
+    height: 36rem;
+    width: 254%;
+  }
+
+  .footer-icon {
+    width: 20%;
+    margin-left: 29rem;
+  }
+
+  .footer-links {
+    display: block;
+    /* position: relative; */
+    width: 90%;
+    margin: 12rem 0%;
+    line-height: 2rem;
+  }
+
+  .social-media {
+    margin-top: 33.5rem;
+  }
+
+  .facebook {
+    margin-left: -28rem;
+  }
+}
